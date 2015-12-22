@@ -11,9 +11,9 @@ LOCAL_C_INCLUDES := system/core/init
 LOCAL_CFLAGS := -Wall -DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"
 LOCAL_SRC_FILES := init_msm.cpp
 ifeq ($(LIBINIT_USE_MSM_DEFAULT),true)
-  LOCAL_SRC_FILES += init_msmdefault.c
+  LOCAL_SRC_FILES += init_msmdefault.cpp
 else
-  LOCAL_SRC_FILES += init_$(TARGET_BOARD_PLATFORM).c
+  LOCAL_SRC_FILES += init_$(TARGET_BOARD_PLATFORM).cpp
 endif
 LOCAL_MODULE := libinit_msm_oppo
 include $(BUILD_STATIC_LIBRARY)
