@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.slim.device;
+package com.liquid.device;
 
-import com.slim.device.util.FileUtils;
+import com.liquid.device.util.FileUtils;
 
 import java.io.File;
 
@@ -61,7 +61,7 @@ public final class KernelControl {
     }
 
     /**
-     * Check if kernel supports arrow up gesture - slim specific.
+     * Check if kernel supports arrow up gesture - liquid specific.
      * As well ugly but needed for now.
      */
     public static boolean isArrowUpSupported() {

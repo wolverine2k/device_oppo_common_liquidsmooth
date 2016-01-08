@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.slim.device;
+package com.liquid.device;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -23,8 +23,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 
-import com.slim.device.KernelControl;
-import com.slim.device.settings.ScreenOffGesture;
+import com.liquid.device.KernelControl;
+import com.liquid.device.settings.ScreenOffGesture;
 
 import java.io.File;
 

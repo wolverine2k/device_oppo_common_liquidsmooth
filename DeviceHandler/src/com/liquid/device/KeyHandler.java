@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.slim.device;
+package com.liquid.device;
 
 import android.app.Activity;
 import android.content.Context;
@@ -30,12 +30,11 @@ import android.os.PowerManager.WakeLock;
 import android.util.Log;
 import android.view.KeyEvent;
 
-import com.slim.device.settings.ScreenOffGesture;
+import com.liquid.device.settings.ScreenOffGesture;
 
 import com.android.internal.os.DeviceKeyHandler;
 import com.android.internal.util.ArrayUtils;
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.Action;
+import com.android.internal.util;
 
 public class KeyHandler implements DeviceKeyHandler {
 
@@ -80,7 +79,7 @@ public class KeyHandler implements DeviceKeyHandler {
 
         try {
             mGestureContext = mContext.createPackageContext(
-                    "com.slim.device", Context.CONTEXT_IGNORE_SECURITY);
+                    "com.liquid.device", Context.CONTEXT_IGNORE_SECURITY);
         } catch (NameNotFoundException e) {
         }
     }

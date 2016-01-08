@@ -34,6 +34,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <private/android_filesystem_config.h>
+#include <errno.h>
 
 #include "vendor_init.h"
 #include "property_service.h"

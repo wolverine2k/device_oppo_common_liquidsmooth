@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.liquid.device.settings;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -37,14 +37,14 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import com.android.internal.util.slim.AppHelper;
-import com.android.internal.util.slim.ActionConstants;
-import com.android.internal.util.slim.DeviceUtils;
-import com.android.internal.util.slim.DeviceUtils.FilteredDeviceFeaturesArray;
+import com.android.internal.util.liquid.AppHelper;
+import com.android.internal.util.liquid.ActionConstants;
+import com.android.internal.util.liquid.DeviceUtils;
+import com.android.internal.util.liquid.DeviceUtils.FilteredDeviceFeaturesArray;
 
-import com.slim.device.KernelControl;
-import com.slim.device.R;
-import com.slim.device.util.ShortcutPickerHelper;
+import com.liquid.device.KernelControl;
+import com.liquid.device.R;
+import com.liquid.device.util.ShortcutPickerHelper;
 
 public class ScreenOffGesture extends PreferenceFragment implements
         OnPreferenceChangeListener, OnPreferenceClickListener,

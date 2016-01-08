@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.slim.device.settings;
+package com.liquid.device.settings;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           android:sharedUserId="android.uid.system"
-          package="com.slim.device"
+          package="com.liquid.device"
           android:versionCode="1"
           android:versionName="1" >
 
@@ -24,7 +24,7 @@
             android:label="@string/screen_off_gesture_title"
             android:configChanges="orientation|screenSize">
           <intent-filter>
-                <action android:name="com.slim.action.LAUNCH_SCREEN_OFF_GESTURE_SETTINGS" />
+                <action android:name="com.liquid.action.LAUNCH_SCREEN_OFF_GESTURE_SETTINGS" />
           </intent-filter>
           <meta-data
                 android:name="com.android.settings.title"

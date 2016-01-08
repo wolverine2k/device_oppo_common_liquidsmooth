@@ -19,8 +19,8 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Button illumination -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
+    <!-- Button illumination 
+    <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
 
     <!-- Hardware keys present on the device, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -33,8 +33,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareKeys">71</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareKeys">71</integer> -->
 
     <!-- Hardware keys present on the device with the ability to wake, stored as a bit field.
          This integer should equal the sum of the corresponding value for each
@@ -47,8 +47,8 @@
             32 - Camera
             64 - Volume rocker
          For example, a device with Home, Back and Menu keys would set this
-         config to 7. -->
-    <integer name="config_deviceHardwareWakeKeys">64</integer>
+         config to 7. 
+    <integer name="config_deviceHardwareWakeKeys">64</integer> -->
 
     <!-- Control the behavior when the user long presses the home button.
             0 - Nothing
@@ -60,10 +60,10 @@
          This needs to match the constants in
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
     -->
-    <integer name="config_longPressOnHomeBehavior">3</integer>
-
+   <integer name="config_longPressOnHomeBehavior">3</integer>
+<!--
    <integer name="config_longPressOnMenuBehavior">2</integer>
-
+-->
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
             1 - Menu
@@ -85,11 +85,11 @@
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
 
     <!-- The list absolute paths of jar/apk files containing the device specific handlers,
-         delimited by File.pathSeparator, which defaults to ":" on Android -->
-    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/DeviceHandler/DeviceHandler.apk</string>
+         delimited by File.pathSeparator, which defaults to ":" on Android 
+    <string name="config_deviceKeyHandlerLib" translatable="false">/system/app/DeviceHandler/DeviceHandler.apk</string> -->
 
     <!-- Full qualified name of the class that implements
-         com.android.internal.os.DeviceKeyHandler interface. -->
-    <string name="config_deviceKeyHandlerClass" translatable="false">com.slim.device.KeyHandler</string>
+         com.android.internal.os.DeviceKeyHandler interface. 
+    <string name="config_deviceKeyHandlerClass" translatable="false">com.slim.device.KeyHandler</string> -->
 
 </resources>

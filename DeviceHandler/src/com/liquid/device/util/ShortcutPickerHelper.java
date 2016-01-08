@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.slim.device.util;
+package com.liquid.device.util;
 
 import android.app.Activity;
 import android.app.Fragment;
@@ -28,9 +28,9 @@ import android.os.Bundle;
 import android.os.Parcelable;
 import android.util.Log;
 
-import com.slim.device.R;
+import com.liquid.device.R;
 
-import com.android.internal.util.slim.AppHelper;
+import com.android.internal.util.liquid.AppHelper;
 
 import java.util.ArrayList;
 
